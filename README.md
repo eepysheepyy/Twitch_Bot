@@ -21,10 +21,6 @@ OBSWS_Python - pip install obsws-python
 
 and DeepTranslator pip install deep-translator
 
-You will also likely need a twitch dev bot for certain stuff, i think. I can't really remember lol : https://dev.twitch.tv/console
-Im sure you guys may work it out. 
-Maybe.
-
 Also, there's the item.py file which can tell you what scene_item_id's are (when selected inside OBS) because theres seemingly no other way to check, and it was pissing me off, so I assume that I can alleviate someone else's pain if someone went looking. 
 
 JUST TO CLARIFY: THIS PROGRAM CAN FIND THE scene_item_id of OBS ITEMS when SELECTED inside OBS, when it's connected to your OBS-Websockets. 
