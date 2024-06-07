@@ -17,8 +17,6 @@ Apparently Python 3.10.14, on a Virtual Environment, with
 
 Twitchio - pip install twitchio
 
-Playsound - pip install playsound
-
 OBSWS_Python - pip install obsws-python
 
 and DeepTranslator pip install deep-translator
