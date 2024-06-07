@@ -1,4 +1,4 @@
-# code by eepysheepyy
+# code by eepysheepyy - https://linktr.ee/eepysheepyy
 from twitchio.ext import commands   # main twitch control, to get chat, and handle commands
 import json     # to play with the env_secrets file
 import random   # for rolling the dice if needed
@@ -159,3 +159,4 @@ class Bot(commands.Bot):
 bot = Bot()
 bot.run()
 # bot.run() is blocking and will stop execution of any below code here until stopped or closed.
+# code by eepysheepyy - https://linktr.ee/eepysheepyy
