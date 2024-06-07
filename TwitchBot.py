@@ -31,7 +31,7 @@ class Bot(commands.Bot):
 
     def __init__(self):
         # Initialise, read from file. 
-        # Client ID: https://faq.demostoreprestashop.com/faq.php?fid=144&pid=41
+        # Client ID: https://twitchtokengenerator.com/
         # Token: https://twitchapps.com/tmi/
         # Bot Prefix: What precurses a command (usually the '!' character)
         # Channel: Just the channel name
