@@ -2,7 +2,6 @@
 from twitchio.ext import commands   # main twitch control, to get chat, and handle commands
 import json     # to play with the env_secrets file
 import random   # for rolling the dice if needed
-from playsound import playsound     # for playing sounds if you want them. 
 import obsws_python as obs      # OBS Websockets
 from deep_translator import GoogleTranslator    # Google translate for the translate command
 
