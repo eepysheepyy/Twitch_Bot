@@ -22,7 +22,7 @@ class Observer:
     
     def on_scene_item_selected(self, data):
         """A Scene item has been selected."""
-        print(f"{data.scene_item_id} item toggled")
+        print(f"{data.scene_item_id} item toggled") # NOTICE: When connected to OBS, when a scene item is selected inside OBS, the console will print it's ID.
 
 
 if __name__ == "__main__":
