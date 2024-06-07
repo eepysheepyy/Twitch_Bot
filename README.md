@@ -14,9 +14,13 @@ Great Question.
 
 Apparently Python 3.10.14, on a Virtual Environment, with 
 (!!and make sure your pip is updated!!)
+
 Twitchio - pip install twitchio
+
 Playsound - pip install playsound
+
 OBSWS_Python - pip install obsws-python
+
 and DeepTranslator pip install deep-translator
 
 You will also likely need a twitch dev bot for certain stuff, i think. I can't really remember lol : https://dev.twitch.tv/console
