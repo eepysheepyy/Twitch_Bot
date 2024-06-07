@@ -147,6 +147,8 @@ class Bot(commands.Bot):
             await ctx.send("Welcome back " + ctx.author.mention + "! Let's see if you get lucky!")
             print('ROLLING POWER ' + str(usrDict[usr]))
             if usrDict[usr] == True:
+                scene_item_id = 0 # scene item id has to be gained via obs-websockets (via item.py)
+                cl.set_scene_item_enabled("SCENE_NAME", scene_item_id, True) # You can enable scene items in this way inside OBS!
                 await ctx.send(f"{usr} has unlurked, and ended the stream lol")
                 cl.stop_stream # for shits and giggles
         else: # not in lurk dictionary 
