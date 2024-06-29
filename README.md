@@ -21,11 +21,11 @@ REQUIREMENTS
 Apparently Python 3.10.14, on a Virtual Environment, with 
 *(and make sure your pip is updated)*
 
-Twitchio - pip install twitchio
+Twitchio - *pip install twitchio*
 
-OBSWS_Python - pip install obsws-python
+OBSWS_Python - *pip install obsws-python*
 
-and DeepTranslator pip install deep-translator
+and DeepTranslator - *pip install deep-translator*
 
 
 **You need to go into the env_secrets.json file and add the following under the categories:**
