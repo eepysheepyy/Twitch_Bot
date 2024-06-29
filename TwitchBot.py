@@ -50,16 +50,15 @@ class Bot(commands.Bot):
         # For now we just want to ignore them...
         if message.echo:
             return
-        # Print the contents of our message to console...
+           # Translate Feature! -- Automatically detects if a chat message is written in a different language, and outputs with the translation to the chat
+        print(message.author.name, "said:", message.content)
+        messy = message.content
+        translation = GoogleTranslator(source='auto', target='en').translate(messy)
+        if messy != translation:
+            print(f"Message is registered in a different language, {messy} translated to {translation}!")
+            await message.channel.send(f"{message.author.name}'s message translated to {translation}")
+            # Print the contents of our message to console...
         print(message.content)
-
-        # TRANSLATION ADDON - Detects if message has string, and if matches, will route the rest of the message through google translate 
-        split = message.content[0:10]
-        if split == '!translate':
-            to_translate = message.content[11:]
-            translated = GoogleTranslator(source='auto', target='en').translate(to_translate)
-            print('Translated to ' + translated)
-            tran = translated   # stores the translation to trigger later (is global)
 
         # Since we have commands and are overriding the default `event_message`
         # We must let the bot know we want to handle and invoke our commands...
@@ -73,12 +72,6 @@ class Bot(commands.Bot):
         if ctx.author.mention == "@USER":    # you can add these if conditions to limit the commands only being to certain users, people with certain badges, and so on.
             cl.set_current_program_scene("OBS_SCENE") # you can add these to change the Scene inside OBS!
             cl.toggle_input_mute("AUDIO_DEVICE") # You can add these to mute an Audio Input Source inside OBS!
-
-    @commands.command()
-    @commands.cooldown(1, 1, commands.Bucket.user)
-    async def translate(self, ctx: commands.Context): # This is where we execute that translate feature
-        global tran
-        await ctx.send(tran)
 
     @commands.command()
     @commands.cooldown(1, 15, commands.Bucket.user)
