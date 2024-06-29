@@ -41,6 +41,17 @@ Bot_Prefix: What character you want before your commands, usually set to '!'
 Channel: The channel name of the chat you're moderating
 
 
+OBS Setup
+--
+
+To setup the OBS Websockets side, (which is not essential) you can navigate to the Websockets setting inside OBS, 
+
+The Addon **(only needed if using the OBS version before the OBS Websocket Update)** https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-using-websockets.466/
+
+and set a password if you haven't already, keep the port the same.
+
+You can then put in this password in the config.toml field that states password
+
 Also, there's the item.py file which can tell you what scene_item_id's are (when selected inside OBS) because theres seemingly no other way to check, and it was pissing me off, so I assume that I can alleviate someone else's pain if someone went looking. 
 
 **JUST TO CLARIFY: THIS PYTHON SCRIPT (item.py) CAN FIND THE scene_item_id of OBS ITEMS when SELECTED inside OBS, when it's connected to your OBS-Websockets.**
