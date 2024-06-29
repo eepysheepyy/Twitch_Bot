@@ -1,3 +1,6 @@
+Python-Based Twitch Bot (TwitchIO + OBS_WS)
+--
+
 So, hi!
 I wanted to globalise this twitch bot I've been modifying over the last few months, and make it readily available for people, as I think it to be a really good addition to streams!
 
@@ -40,9 +43,17 @@ Channel: The channel name of the chat you're moderating
 
 Also, there's the item.py file which can tell you what scene_item_id's are (when selected inside OBS) because theres seemingly no other way to check, and it was pissing me off, so I assume that I can alleviate someone else's pain if someone went looking. 
 
-JUST TO CLARIFY: THIS PROGRAM CAN FIND THE scene_item_id of OBS ITEMS when SELECTED inside OBS, when it's connected to your OBS-Websockets. 
+**JUST TO CLARIFY: THIS PYTHON SCRIPT (item.py) CAN FIND THE scene_item_id of OBS ITEMS when SELECTED inside OBS, when it's connected to your OBS-Websockets.**
 
-ANYWAYS, I'm the eepysheepyy, and that's my part, you can feel free to check out all my socials and stuff here: https://linktr.ee/eepysheepyy
+
+Links
+--
+
+You can find my website is https://eepysheepyy.com/
+
+And uou can find my Twitch here: https://www.twitch.tv/eepysheepyy
+
+You can feel free to check out all my other socials and stuff here: https://linktr.ee/eepysheepyy
 
 I hope you all have a BAA-Rilliant Day <33
 
