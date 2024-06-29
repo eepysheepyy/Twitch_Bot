@@ -52,6 +52,8 @@ and set a password if you haven't already, keep the port the same.
 
 You can then put in this password in the config.toml field that states password
 
+When running the python script, you will know when the connection failed if you get the error message: <class 'ConnectionError'>
+
 Also, there's the item.py file which can tell you what scene_item_id's are (when selected inside OBS) because theres seemingly no other way to check, and it was pissing me off, so I assume that I can alleviate someone else's pain if someone went looking. 
 
 **JUST TO CLARIFY: THIS PYTHON SCRIPT (item.py) CAN FIND THE scene_item_id of OBS ITEMS when SELECTED inside OBS, when it's connected to your OBS-Websockets.**
