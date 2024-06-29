@@ -12,6 +12,9 @@ I want to eventually add Twitch Auto-modding to this whole thing, but that can w
 So what do you need? 
 Great Question.
 
+REQUIREMENTS
+--
+
 Apparently Python 3.10.14, on a Virtual Environment, with 
 (!!and make sure your pip is updated!!)
 
@@ -21,9 +24,8 @@ OBSWS_Python - pip install obsws-python
 
 and DeepTranslator pip install deep-translator
 
-IN ORDER TO PROPERLY USE:
-You need to go into the env_secrets.json file and add the following under the categories:
---
+
+**You need to go into the env_secrets.json file and add the following under the categories:**
 
 Token: Your OAUTH Twitch token that can be found at: https://twitchapps.com/tmi/
 
