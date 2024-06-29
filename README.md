@@ -3,6 +3,8 @@ I wanted to globalise this twitch bot I've been modifying over the last few mont
 
 Basically, this is a python scripted Twitch Chat Bot, that uses a combination of TwitchIO, OBS Websockets to create a multi-function/purpose bot that can read and act upon chat messages and executes custom chat commands. You can also directly interact with OBS, get all the info from the twitch side of things, and also have full python functionality too. 
 
+I've also included a way for messages in foreign languages to be translated in real time, via the Google Translate API, you can remove this if you don't like it. 
+
 It's rather simple at the moment, I know, but it has a lot of potential! I've kept some of the things I use for my own streams private. 
 
 I want to eventually add Twitch Auto-modding to this whole thing, but that can wait for now. 
