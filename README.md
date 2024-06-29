@@ -16,7 +16,7 @@ REQUIREMENTS
 --
 
 Apparently Python 3.10.14, on a Virtual Environment, with 
-(!!and make sure your pip is updated!!)
+*(and make sure your pip is updated)*
 
 Twitchio - pip install twitchio
 
