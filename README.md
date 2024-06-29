@@ -25,10 +25,10 @@ Twitchio - *pip install twitchio*
 
 OBSWS_Python - *pip install obsws-python*
 
-and DeepTranslator - *pip install deep-translator*
+DeepTranslator - *pip install deep-translator*
 
 
-**You need to go into the env_secrets.json file and add the following under the categories:**
+**You ALSO need to go into the env_secrets.json file and add the following under the categories:**
 
 Token: Your OAUTH Twitch token that can be found at: https://twitchapps.com/tmi/
 
